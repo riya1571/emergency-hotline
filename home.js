@@ -15,6 +15,7 @@ document.getElementById("call-btn1").addEventListener("click", function () {
     who: "National Emergency Number",
     date: new Date().toLocaleTimeString(),
     number: 999,
+    
   };
   
   document.getElementById("point-show").innerText = finalPoint - 20;
